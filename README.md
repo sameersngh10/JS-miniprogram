@@ -24,7 +24,7 @@ To get started with the mini programs:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/js-mini-programs.git
+   git clone https://github.com/sameersngh10/JS-miniprogram.git
 
 
 ## Navigate to the project directory:
