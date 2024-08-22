@@ -57,13 +57,13 @@ To get started with the mini programs:
   For example, to check if a number is prime, open the prime.html file, enter a number, and see if the program identifies it as prime or not.
 
 ## Contributing
-  Contributions are welcome! If you have a new mini program you'd like to add or improvements to existing programs, feel free to fork the repository and submit a pull request.
+     Contributions are welcome! If you have a new mini program you'd like to add or improvements to existing programs, feel free to fork the repository and submit a pull request.
 
-  Fork the repository.
-    Create a new branch (git checkout -b feature-new-program).
-    Commit your changes (git commit -m 'Add a new program').
-    Push to the branch (git push origin feature-new-program).
-    Open a pull request.
+     Fork the repository.
+       Create a new branch (git checkout -b feature-new-program).
+       Commit your changes (git commit -m 'Add a new program').
+       Push to the branch (git push origin feature-new-program).
+       Open a pull request.
 
 ## License
   This repository is licensed under the MIT License. See the LICENSE file for more information.
