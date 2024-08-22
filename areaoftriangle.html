@@ -1,0 +1,15 @@
+<script>
+  let base, height;
+
+  base = parseFloat(prompt("enter the lenght of base of the triangle"));
+  height = parseFloat(prompt("enter the height of the trinagle"));
+
+  function areaoftriangle(base, height) {
+    return (1 / 2) * base * height;
+  }
+
+  const result = areaoftriangle(base, height);
+  document.write(" base of triangle=", base, "\n");
+  document.write(" height of triangle=", height, "\n");
+  document.write(" Area of the triangle is :", result);
+</script>

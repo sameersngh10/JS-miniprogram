@@ -1,0 +1,24 @@
+<html>
+  <body>
+    <h1>programs for array</h1>
+    <p>please open console to see output</p>
+    <script>
+      let arr = [];
+      let n = parseInt(prompt("enter the lenght of array"));
+
+      for (let i = 0; i < n; i++) {
+        arr[i] = prompt("enter elements of the array", i + 1);
+      }
+      console.log(arr);
+
+      //different operations on array
+      arr.unshift(5);
+      console.log(arr, "after pushing 5");
+      console.log(arr.length, "after pushing 5");
+      arr.pop();
+      console.log(arr, "after poping ");
+      //   console.log(arr);
+      console.log(arr.length);
+    </script>
+  </body>
+</html>

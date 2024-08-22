@@ -1,0 +1,31 @@
+<html>
+  <body>
+    <script>
+      let size = prompt("Enter the size of the array");
+
+      let arr = [];
+      let i;
+
+      for (i = 0; i < size; i++) {
+        arr[i] = prompt("Enter the elements of array", i);
+      }
+
+      document.write("Size of array = " + size);
+      document.write("<br>");
+      document.write("Array:" + arr + "<br>");
+
+      let a = prompt("Enter the number you want to search");
+
+      for (i = 0; i < size; i++) {
+        if (arr[i] == a) {
+          document.write("Element " + arr[i] + " found at index " + i);
+          break;
+        }
+      }
+
+      if (arr[i] != a) {
+        document.write("Element " + a + " Not found in ther array");
+      }
+    </script>
+  </body>
+</html>
